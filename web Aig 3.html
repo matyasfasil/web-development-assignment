@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#introduction">Introduction</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <h1><mark>Matyas Fasil</mark></h1>
+        <p>Expert in <b>HTML & Web Development</b></p>
+        <hr>
+    </header>
+    <main>
+        <article>
+
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>
+                   My name is Matyas Fasil, a web developer driven by precision and a focus on user-centric design. I specialize in building fast, reliable, and visually engaging websites that function perfectly on any device. By mastering HTML, CSS, and JavaScript, I ensure every project is both responsive and efficient.
+I take pride in writing clean, scalable code and solving complex problems with long-term solutions. My toolkit includes modern frameworks and secure data management, supported by a commitment to constant learning. I bridge the gap between creative design and technical performance to build a better digital world. I am Matyas Fasil, and I strive for excellence by making quality and user satisfaction my top priorities.
+
+            </section>
+
+            <hr>
+
+            <section id="skills">
+                <h2>Technical Proficiency</h2>
+
+                <details>
+                    <summary>Programming Languages</summary>
+                    <ul>
+                        <li>HTML</li>
+                        <li>Java <b> OOP</b></li>
+                        <li>C++</li>
+                    </ul>
+                </details>
+
+                <p>Development Pace:
+                <progress value="50" min="0" max="100"></progress> 50%
+
+                <p>Specialized & emerging skills:
+                <meter value="80" min="0" max="100"></meter> 80%
+
+                <p>Managing Time Properly:
+                <meter value="70" min="0" max="100"></meter> 70%
+            </section>
+            <section>
+                <h2>Education History</h2>
+
+                <table style="border: 1px solid black";>
+                    <caption>Academic Credentials</caption>
+
+                    
+                        <tr>
+                            <th style="border: 1px solid black";>Year</th>
+                            <th style="border: 1px solid black";>Degree</th>
+                            <th style="border: 1px solid black";>Result</th>
+                        </tr>
+                    
+
+                    
+                        <tr>
+                            <td style="border: 1px solid black";>2026</td>
+                            <td style="border: 1px solid black";>CS Degree</td>
+                            <td style="border: 1px solid black";>3.9 gpa</td>
+                        </tr>
+
+                    
+                       <tr>
+                            <td style="border: 1px solid black"; colspan="3">References available upon request.</td>
+                        </tr>
+                    
+                </table>
+            </section>
+
+            <section id="contact">
+                <h2>Inquiry Form</h2>
+
+                <form action="/submit" method="post">
+                    <fieldset>
+                        <legend>Contact me</legend>
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <br><br>
+
+                        <label for="app">Preferred app to communicate:</label>
+                        <input list="app" id="app" name="app">
+                        <datalist id="browsers">
+                            <option value="Telegram">
+                            <option value="Whatsapp">
+                            <option value="viber">
+                        </datalist>
+                        <br><br>
+
+                        <label for="interest">Level of Interest:</label>
+                        <input type="range" id="interest" name="interest" min="0" max="10">
+                        <br><br>
+                        <label for="service">Service:</label>
+                        <select id="service" name="service">
+                            <optgroup label="Web Development">
+                                <option value="frontend">Frontend</option>
+                                <option value="backend">Backend</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+
+                        <label for="note">Message:</label><br>
+                        <textarea id="note" rows="4" cols="30"></textarea>
+                        <br><br>
+
+                        <button type="submit">Submit Profile Request</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- Media -->
+            <section>
+                <h2>Sample Media</h2>
+
+                <figure>
+                    <img src="WIN_20260429_06_51_23_Pro.jpg" width="200" height="160"  alt="Matyas Fasil profile placeholder">
+                    <figcaption>Fig 1. Headshot placeholder.</figcaption>
+                </figure>
+
+                <p>Intro Audio:</p>
+                <audio controls>
+                    <source src="Recording.m4a" type="audio/mpeg">
+                    Your browser does not support audio.
+                </audio>
+                <h3>Introduction Vidio</h3>
+
+        <video  controls height="200">
+        <source src="WIN_20260429_07_52_57_Pro.mp4">
+                
+            </video>
+            <hr>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <address>
+            Created by <b>Matyas Fasil</b><br>
+            Addis Ababa, Summit<br>
+            For more info please contact <a href="https://hilcoeschool.com/">hilcoeschool.com</a><br>
+        </address>
+        <hr>
+        <p><small>&copy; 2026 All rights reserved.</small></p>
+    </footer>
+
+</body>
+</html>
